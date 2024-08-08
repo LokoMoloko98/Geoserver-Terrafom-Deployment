@@ -1,4 +1,4 @@
-# Moduler Terraform Template
+# Geoserver Moduler Terraform Deployment
 Terraform Template to quickly provision AWS virtual infrastructure in a modular pattern.
 
 ## Features

@@ -12,7 +12,7 @@ module "iam" {
   region       = var.region
 }
 
-module "compute" {
+module "geoserver" {
   source            = "./compute"
   security_group_id = module.networking.security_group_id
   instance_profile  = module.iam.instance_profile

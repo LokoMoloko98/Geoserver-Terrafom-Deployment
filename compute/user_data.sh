@@ -61,8 +61,6 @@ fi
 
 
 cd /
-git clone https://github.com/LokoMoloko98/Infrastructure-Testing-Nginx-Server-Container.git
-chmod 777 Infrastructure-Testing-Nginx-Server-Container
-chmod 777 Infrastructure-Testing-Nginx-Server-Container/* 
-cd /Infrastructure-Testing-Nginx-Server-Container
-./build_image.sh
+git clone https://github.com/kartoza/docker-geoserver.git
+cd /docker-geoserver
+docker-compose up -d
